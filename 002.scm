@@ -2,7 +2,7 @@
 (define x '((it seems that) you (like) me))
 (cdr x)
 (caaddr x)
-(cdaar x)
+(list(caar x))
 
 (define t '(((A 1) B 2 C 3) D))
 (car t)
