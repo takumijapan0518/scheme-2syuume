@@ -2,7 +2,7 @@
 (define (euclid x y)
   (if (zero? x)y
     (euclid (modulo y x)x)))
-(euclid 24 32)
+(euclid 2147227 2830757)
 (euclid 255063903 361736024)
 
 (define (pow m n)
